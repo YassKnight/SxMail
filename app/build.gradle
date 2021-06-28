@@ -1,0 +1,56 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.yknight.mail2"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    //需要添加这个配置
+    packagingOptions {
+        pickFirst 'META-INF/LICENSE.md' // picks the Jakarta Mail license file
+        pickFirst 'META-INF/NOTICE.md' // picks the Jakarta Mail notice file
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // 组件库
+    implementation 'ink.lodz:pandora:1.6.3'
+    //邮箱 jakartaMail
+    implementation 'com.sun.mail:jakarta.mail:2.0.0'
+    implementation 'com.sun.activation:jakarta.activation:2.0.0'
+
+    // 权限申请
+    implementation "com.github.permissions-dispatcher:permissionsdispatcher:4.8.0"
+    kapt "com.github.permissions-dispatcher:permissionsdispatcher-processor:4.8.0"
+    // butterknife
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    kapt 'com.jakewharton:butterknife-compiler:10.2.3'
+    // 数据库
+    implementation project(':greendaolib')
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.7'
+    implementation 'com.alibaba:fastjson:1.2.75'
+}

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: ink.lodz:core-kt:1.3.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b0ef017719654ecae245b249a05fbc/core-kt-1.3.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b0ef017719654ecae245b249a05fbc/core-kt-1.3.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b0ef017719654ecae245b249a05fbc/core-kt-1.3.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ink.lodz/core-kt/1.3.6/d858601f073612c544e5e5c6cc9f2c866e63fee3/core-kt-1.3.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

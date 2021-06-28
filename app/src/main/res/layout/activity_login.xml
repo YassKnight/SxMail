@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_splash_mail"
+        android:contentDescription="@string/app_name" />
+
+    <EditText
+        android:id="@+id/mail_account_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/please_input_account"
+        android:inputType="textEmailAddress"
+        android:autofillHints="account"
+        android:text="1611757694@qq.com" />
+
+    <EditText
+        android:id="@+id/mail_password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/please_input_password"
+        android:inputType="textPassword"
+        android:text="buxggqbvpnkrfggc"
+        android:autofillHints="password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/login_in_btn"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/login" />
+    </LinearLayout>
+
+</LinearLayout>

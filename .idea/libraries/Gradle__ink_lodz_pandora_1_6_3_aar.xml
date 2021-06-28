@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: ink.lodz:pandora:1.6.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a95af904b982d1a6596304e6a19773/pandora-1.6.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a95af904b982d1a6596304e6a19773/pandora-1.6.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a5a95af904b982d1a6596304e6a19773/pandora-1.6.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ink.lodz/pandora/1.6.3/3d2ef8da2d7402e1e4ae30688d636bfba069fc6c/pandora-1.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
